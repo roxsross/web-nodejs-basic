@@ -1,68 +1,91 @@
 ---
+# CICD Demo
 
-# Running the Node.js Application Locally
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-7B42BC?logo=terraform&logoColor=white&style=for-the-badge)
+![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![kubernetes](https://img.shields.io/badge/kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge)
+![Azure](https://img.shields.io/badge/azure-0078D4?logo=microsoft-azure&logoColor=white&style=for-the-badge)
+![Amazon](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Gcp](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
+![python](https://img.shields.io/badge/python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Gitlab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
+![Jenkins](	https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
+![city](https://img.shields.io/badge/TeamCity-000000?style=for-the-badge&logo=TeamCity&logoColor=white)
 
-This guide will walk you through the steps to run the Node.js application on your local machine.
+---
+![](https://github.com/roxsross/roxsross/blob/main/images/roxsross-banner-1.png)
 
-## Prerequisites
+🔥🔥🔥🔥
 
-Before starting, ensure you have the following installed on your system:
+### by RoxsRoss
 
-- Node.js: Download and install from [nodejs.org](https://nodejs.org/)
-- Git: Download and install from [git-scm.com](https://git-scm.com/)
 
-## Steps
+### Guía para Ejecutar la Aplicación Node.js en tu Máquina Local
 
-1. **Clone the Repository:**
+## Prerrequisitos
 
-   Open your terminal and run the following command to clone the repository:
+Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
+
+- Node.js: Descárgalo e instálalo desde [nodejs.org](https://nodejs.org/)
+- Git: Descárgalo e instálalo desde [git-scm.com](https://git-scm.com/)
+
+## Pasos
+
+1. **Clonar el Repositorio:**
+
+   Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio:
 
    ```bash
    git clone https://github.com/roxsross/web-nodejs-basic.git
    ```
 
-2. **Navigate to the Project Directory:**
+2. **Navegar al Directorio del Proyecto:**
 
-   Change into the project directory:
+   Cambia al directorio del proyecto:
 
    ```bash
    cd basic_nodejs_webpage
    ```
 
-3. **Install Dependencies:**
+3. **Instalar Dependencias:**
 
-   Install the required dependencies using npm:
+   Instala las dependencias requeridas usando npm:
 
    ```bash
    npm install
    ```
 
-4. **Run the Application:**
+4. **Ejecutar la Aplicación:**
 
-   Start the Node.js application:
+   Inicia la aplicación Node.js:
 
    ```bash
    npm start
    ```
 
-5. **Access the Application:**
+5. **Acceder a la Aplicación:**
 
-   Once the application has started, open your web browser and go to:
+   Una vez que la aplicación haya iniciado, abre tu navegador web y ve a:
 
    ```
    http://localhost:8081
    ```
 
-   You should now see the Node.js application running locally on your machine.
+   Ahora deberías ver la aplicación Node.js ejecutándose localmente en tu máquina.
 
-6. **Stopping the Application:**
+6. **Detener la Aplicación:**
 
-   To stop the application, press `Ctrl + C` in the terminal where the application is running.
+   Para detener la aplicación, presiona `Ctrl + C` en la terminal donde se está ejecutando la aplicación.
 
-## Additional Notes
+## Notas Adicionales
 
-- The application will be running on port 8081 by default. If you need to change the port, you can modify it in the `server.js` file.
-- Make sure no other application is using port 8081 on your system before starting the Node.js application.
+- La aplicación se ejecutará en el puerto 8081 por defecto. Si necesitas cambiar el puerto, puedes modificarlo en el archivo `server.js`.
+- Asegúrate de que ninguna otra aplicación esté utilizando el puerto 8081 en tu sistema antes de iniciar la aplicación Node.js.
 
 ---
-
