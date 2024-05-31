@@ -31,7 +31,7 @@ sudo apt-get update
 sudo apt-get install jenkins
 ```
 
-**Nota:** use el puerto 80 para acceder.
+**Nota:** use el puerto 8080 para acceder.
 
 ##### Validar status Jenkins
 ```sh
