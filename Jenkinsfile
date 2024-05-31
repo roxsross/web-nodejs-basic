@@ -1,6 +1,10 @@
 pipeline {
     agent any
-   
+    environment{
+        REGISTRY = 'roxsross12'
+        APPNAME = 'web-nodejs'
+        VERSION = '1.0.0'
+    }   
     tools{
         nodejs 'nodejs'
     }
@@ -22,9 +26,9 @@ pipeline {
             steps {
                 script{
                     withDockerRegistry(credentialsId: 'docker-new') {
-                        sh "docker build -t demonodejs ."
-                        sh "docker tag demonodejs roxsross12/nodejs:latest"
-                        sh "docker push $REGISTRY/nodejs:latest"
+                        sh "docker build -t $APPNAME ."
+                        sh "docker tag $APPNAME $REGISTRY/$APPNAME:$VERSION"
+                        sh "docker push $REGISTRY/$APPNAME:$VERSION"
     
                     }
                 }
@@ -36,7 +40,7 @@ pipeline {
             steps {
                 script{
                     withDockerRegistry(credentialsId: 'docker-new') {
-                        sh "docker run -d --name latestnode -p 8081:8081 roxsross12/nodejs:latest"    
+                        sh "docker run -d --name latestnode -p 8081:8081 $REGISTRY/$APPNAME:$VERSION"    
                     }
                 }
                
