@@ -1,5 +1,5 @@
 ---
-# CICD Demo
+# Demo
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -85,7 +85,30 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
 
 ## Notas Adicionales
 
-- La aplicación se ejecutará en el puerto 8081 por defecto. Si necesitas cambiar el puerto, puedes modificarlo en el archivo `server.js`.
+- La aplicación se ejecutará en el puerto 8081 por defecto. Si necesitas cambiar el puerto, puedes modificarlo en el archivo `app.js`.
 - Asegúrate de que ninguna otra aplicación esté utilizando el puerto 8081 en tu sistema antes de iniciar la aplicación Node.js.
 
 ---
+🔥🔥🔥🔥
+
+<img width="80%" src="https://roxsross-linktree.s3.amazonaws.com/295-full-website-banner-transparent-white.png"> 
+
+
+### ✉️  &nbsp;Contactos 
+
+Me puedes encontrar en:
+
+[![site](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white&link=https://blog.295devops.com) ](https://blog.295devops.com)
+[![Blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white&link=https://dev.to/roxsross)](https://dev.to/roxsross)
+![Twitter](https://img.shields.io/twitter/follow/roxsross?style=for-the-badge)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/roxsross/)](https://www.linkedin.com/in/roxsross/)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/roxsross)](https://www.instagram.com/roxsross/)
+[![Youtube Badge](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCa-FcaB75ZtqWd1YCWW6INQ)](https://www.youtube.com/channel/UCa-FcaB75ZtqWd1YCWW6INQ)
+
+
+<samp>
+"Para entender algo no debes entenderlo sino serlo"
+<samp>
+  </div>
+  
+   [![Comprar](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&link=https://www.buymeacoffee.com/roxsross)](https://www.buymeacoffee.com/roxsross)
