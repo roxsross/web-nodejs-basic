@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+   
     tools{
         nodejs 'nodejs'
     }
@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('GIT CHECKOUT') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/roxsross/web-nodejs-basic.git'
+                git branch: 'master', changelog: false, poll: false, url: 'https://github.com/roxsross/web-nodejs-basic.git'
             }
         }
         
@@ -21,10 +21,10 @@ pipeline {
         stage('Docker build and Push') {
             steps {
                 script{
-                    withDockerRegistry(credentialsId: 'docker-new', toolName: 'docker') {
+                    withDockerRegistry(credentialsId: 'docker-new') {
                         sh "docker build -t demonodejs ."
                         sh "docker tag demonodejs roxsross12/nodejs:latest"
-                        sh "docker push roxsross12/nodejs:latest"
+                        sh "docker push $REGISTRY/nodejs:latest"
     
                     }
                 }
@@ -35,9 +35,8 @@ pipeline {
         stage('Docker Deploy') {
             steps {
                 script{
-                    withDockerRegistry(credentialsId: 'docker-new', toolName: 'docker') {
-                        sh "docker run -d --name latestnode -p 8081:8081 roxsross12/nodejs:latest"
-    
+                    withDockerRegistry(credentialsId: 'docker-new') {
+                        sh "docker run -d --name latestnode -p 8081:8081 roxsross12/nodejs:latest"    
                     }
                 }
                
