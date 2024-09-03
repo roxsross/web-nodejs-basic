@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-api
+  description: Example repo node basic
+  tags:
+    - node
+    - data
+  links:
+    - url: https://github.com/roxsross/web-nodejs-basic
+      title: Source Code
+      icon: github
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: roxsross
+  system: node-basic
