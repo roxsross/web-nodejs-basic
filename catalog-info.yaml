@@ -16,5 +16,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: roxsross
+  owner: guest
   system: node-basic
