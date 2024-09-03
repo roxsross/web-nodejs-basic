@@ -5,11 +5,14 @@ metadata:
   description: Example repo node basic
   tags:
     - node
-    - data
+    - microservices
   links:
     - url: https://github.com/roxsross/web-nodejs-basic
       title: Source Code
       icon: github
+  annotations:
+    # this could also be `url:<url>` if the documentation isn't in the same location
+    backstage.io/techdocs-ref: dir:.      
 spec:
   type: service
   lifecycle: production
