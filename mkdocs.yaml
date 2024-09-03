@@ -1,0 +1,11 @@
+site_name: repo prueba
+site_description: descripcion prueba
+site_author: roxsross
+site_url: https://blog.295devops.com
+repo_url: https://github.com/roxsross/web-nodejs-basic
+edit_uri: edit/main/docs
+plugins: 
+  - techdocs-core
+nav:
+  - Home: index.md
+  - Management: managing.md   
