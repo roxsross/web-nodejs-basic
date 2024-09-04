@@ -16,5 +16,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: guests
   system: node-basic
